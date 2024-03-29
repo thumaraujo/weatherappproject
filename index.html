@@ -15,12 +15,13 @@
   <body>
     <div class="weather-box">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
-            class="search-city"
+            id="search-city-input"
+            class="search-city-input"
           />
           <input type="submit" value="Search" class="submit-search" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-city">Dublin</h1>
+            <h1 class="weather-city" id="city">Dublin</h1>
             <p class="weather-details">
               Wednesday 12:06, overcast clouds
               <br />
@@ -45,13 +46,12 @@
       <footer>
         This project was coded by
         <a href="https://github.com/thumaraujo" target="_blank">Thuany</a> and
-        is
-        <a href="https://github.com/thumaraujo" target="_blank"> on GitHub</a>
-        and
-        <a href="https://github.com/thumaraujo" target="_blank"
-          >hosted on Netlify</a
-        >
+        is on
+        <a href="https://github.com/thumaraujo" target="_blank">GitHub</a>
+        and hosted on
+        <a href="https://github.com/thumaraujo" target="_blank">Netlify</a>
       </footer>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
