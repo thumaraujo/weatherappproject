@@ -80,8 +80,8 @@ main {
   line-height: 88px;
 }
 .weather-temperature-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 90px;
+  height: 90px;
 }
 .weather-temperature-unit {
   margin-top: 6px;
