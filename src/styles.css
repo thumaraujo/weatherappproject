@@ -51,6 +51,7 @@ main {
   justify-content: space-between;
 }
 .weather-city {
+  color: #3d4040;
   margin: 0;
   font-size: 38px;
   font-weight: 700;
@@ -74,6 +75,7 @@ main {
   display: flex;
 }
 .weather-temperature-value {
+  color: #3d4040;
   font-size: 88px;
   font-weight: 700;
   height: 100px;
@@ -84,6 +86,7 @@ main {
   height: 90px;
 }
 .weather-temperature-unit {
+  color: #3d4040;
   margin-top: 6px;
   font-size: 28px;
   height: 120px;
